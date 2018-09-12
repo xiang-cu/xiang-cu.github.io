@@ -2,7 +2,7 @@
 title: Xiang Luo's portfolio
 description: 
 #logo: favicon.png
-url: design.graphics
+url: create.graphics
 rss_url: /feed.xml
 
 # Jekyll
@@ -34,16 +34,16 @@ baidu_analytics: 5b31ffbbdc6cff18727f3adf75a03777    #from //hm.baidu.com/hm.js?
 author:
   #resume: /resume
   name: Xiang Luo     #the name of Blog section
-  about_me: Hi, I'm Xiang Luo. I am currently a junior at University of Colorado Boulder, majoring in Technology, Arts and Media, with a minor in information Science. This is where I'm keeping my works from courses and other projects at. Feel free to reach out to me at Xiang.Luo@colorado.edu
+  about_me: Hi, I'm Xiang Luo. I am currently a junior at University of Colorado Boulder, majoring in Technology, Arts and Media, with a minor in information Science. <br /> This is where I'm keeping my works from courses and other projects at. <br /> Feel free to reach out to me at Xiang.Luo@colorado.edu
  
 # Social Links
-email:               xiang@design.graphics
+email:               xiang@create.graphics
 #google.plus:        username
 #twitter:            username
 #facebook:            username
 #github:              username
 #stackoverflow:     username
-linkedin:           www.linkedin.com/in/xiangluo
+linkedin:           xiangluo
 #xing:              username
 #instagram:          username
 #lastfm:            username
