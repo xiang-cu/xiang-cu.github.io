@@ -1,8 +1,8 @@
 #Site
-title: 水榭清松-Song Kong
-description: This is Song' home.
-logo: favicon.png
-url: kongsong.me
+title: Xiang Luo's portfolio
+description: 
+#logo: favicon.png
+url: design.graphics
 rss_url: /feed.xml
 
 # Jekyll
@@ -33,17 +33,17 @@ baidu_analytics: 5b31ffbbdc6cff18727f3adf75a03777    #from //hm.baidu.com/hm.js?
 # Author information:
 author:
   #resume: /resume
-  name: Song Kong     #the name of Blog section
-  about_me: I'm Song Kong, a student from BUPT. This is my online home & blog, where I share thoughts about front-end development, my daily life and other insteresting topics. Feel free to contact me by email if you have any question.
+  name: Xiang Luo     #the name of Blog section
+  about_me: Hi, I'm Xiang Luo. I am currently a junior at University of Colorado Boulder, majoring in Technology, Arts and Media, with a minor in information Science. This is where I'm keeping my works from courses and other projects at. Feel free to reach out to me at Xiang.Luo@colorado.edu
  
 # Social Links
-email:               hi@kongsong.me
+email:               xiang@design.graphics
 #google.plus:        username
 #twitter:            username
-facebook:            kongsong
-github:              songkong
-stackoverflow:      6438519/song-kong   #from a "http://stackoverflow.com/users/123456/username" link
-linkedin:           kongsong
+#facebook:            username
+#github:              username
+#stackoverflow:     username
+linkedin:           www.linkedin.com/in/xiangluo
 #xing:              username
 #instagram:          username
 #lastfm:            username
