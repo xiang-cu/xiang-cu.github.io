@@ -1,122 +1,99 @@
-<!DOCTYPE HTML>
-<!--
-	Radius by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
+<!DOCTYPE html>
 <html>
 	<head>
-		<title>恋物癖博客</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+		<meta name="description" content="Rubik’s Cube">
+		<meta name="keywords" content="Erno Rubik’s Cube">
+
+
+
+		<link rel="stylesheet" type="text/css" href="build/styles/cube.css">
+		<link rel="stylesheet" type="text/css" href="examples/basic/styles/base.css">
+		<link rel="icon" type="image/png" href="build/media/cuber-favicon-0064x0064.png">
+		<link rel="apple-touch-icon" href="build/media/cuber-favicon-0144x0144.png">
+
+
+		<title>Cuber</title>
+
+
+
+		<!-- compiled cube code -->	
+		<!-- <script charset="utf-8" src="build/cuber.js"></script> -->
+
+		<!-- compiled & minified cube code -->	
+		<!-- <script charset="utf-8" src="build/cuber.min.js"></script> -->
+
+
+
+		<script charset="utf-8" src="src/scripts/vendor/tween.min.js"></script>
+
+
+		<!-- cube source code -->
+
+
+			<!--  Three.js  -->
+			<script charset="utf-8" src="src/scripts/vendor/threejs/src/Three.js"></script>
+			<script charset="utf-8" src="src/scripts/vendor/threejs/src/core/EventDispatcher.js"></script>
+			<script charset="utf-8" src="src/scripts/vendor/threejs/src/math/Math.js"></script>
+			<script charset="utf-8" src="src/scripts/vendor/threejs/src/math/Quaternion.js"></script>
+			<script charset="utf-8" src="src/scripts/vendor/threejs/src/math/Vector2.js"></script>
+			<script charset="utf-8" src="src/scripts/vendor/threejs/src/math/Vector3.js"></script>
+			<script charset="utf-8" src="src/scripts/vendor/threejs/src/math/Box3.js"></script>
+			<script charset="utf-8" src="src/scripts/vendor/threejs/src/math/Sphere.js"></script>
+			<script charset="utf-8" src="src/scripts/vendor/threejs/src/math/Euler.js"></script>
+			<script charset="utf-8" src="src/scripts/vendor/threejs/src/math/Matrix3.js"></script>
+			<script charset="utf-8" src="src/scripts/vendor/threejs/src/math/Matrix4.js"></script>
+			<script charset="utf-8" src="src/scripts/vendor/threejs/src/core/Object3D.js"></script>
+			<script charset="utf-8" src="src/scripts/vendor/threejs/src/cameras/Camera.js"></script>
+			<script charset="utf-8" src="src/scripts/vendor/threejs/src/cameras/PerspectiveCamera.js"></script>
+			<script charset="utf-8" src="src/scripts/vendor/threejs/src/math/Ray.js"></script>
+			<script charset="utf-8" src="src/scripts/vendor/threejs/src/math/Plane.js"></script>
+
+
+			<!--  Here are the Cube guts. Enjoy.  -->
+			<script charset="utf-8" src="src/scripts/ERNO.js"></script>
+			<script charset="utf-8" src="src/scripts/vendor/CSS3DRenderer.js"></script>
+			<script charset="utf-8" src="src/scripts/utils/utils.js"></script>
+			<script charset="utf-8" src="src/scripts/utils/Number.js"></script>
+			<script charset="utf-8" src="src/scripts/utils/String.js"></script>
+			<script charset="utf-8" src="src/scripts/utils/Array.js"></script>
+			<script charset="utf-8" src="src/scripts/colors.js"></script>
+			<script charset="utf-8" src="src/scripts/directions.js"></script>
+			<script charset="utf-8" src="src/scripts/queues.js"></script>
+			<script charset="utf-8" src="src/scripts/twists.js"></script>
+			<script charset="utf-8" src="src/scripts/cubelets.js"></script>
+			<script charset="utf-8" src="src/scripts/groups.js"></script>
+			<script charset="utf-8" src="src/scripts/slices.js"></script>
+			<script charset="utf-8" src="src/scripts/folds.js"></script>
+			<script charset="utf-8" src="src/scripts/projector.js"></script>
+			<script charset="utf-8" src="src/scripts/interaction.js"></script>
+			<script charset="utf-8" src="src/scripts/controls.js"></script>
+			<script charset="utf-8" src="src/scripts/cubes.js"></script>
+			<script charset="utf-8" src="src/scripts/solvers.js"></script>
+			<script charset="utf-8" src="src/scripts/renderer.js"></script>
+
+
+
+		<!-- implementation -->	
+
+
+		<script charset="utf-8" src="examples/basic/scripts/jquery.js"></script>
+		<script charset="utf-8" src="src/scripts/extras/renderers/iecss3d.js"></script>
+		<script charset="utf-8" src="src/scripts/extras/renderers/ierenderer.js"></script>
+		<script charset="utf-8" src="src/scripts/extras/controls/locked.js"></script>
+		<script charset="utf-8" src="src/scripts/extras/deviceMotion.js"></script>
+		<script charset="utf-8" src="examples/basic/scripts/main.js"></script>		
+
+
+
 	</head>
-	<body>
-
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<div class="content">
-						<h1>恋物癖</h1>
-						<h2>离别之前<br />
-						好好说再见</h2>
-						<a href="#" class="button big alt"><span>一窥初见</span></a>
-					</div>
-					<a href="#" class="button hidden"><span>一窥初见</span></a>
-				</div>
-			</header>
-
-		<!-- Main -->
-			<div id="main">
-				<div class="inner">
-					<div class="columns">
-
-						<!-- Column 1 (horizontal, vertical, horizontal, vertical) -->
-							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic01.jpg" alt="" /></a>
-							</div>
-							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic02.jpg" alt="" /></a>
-							</div>
-							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic03.jpg" alt="" /></a>
-							</div>
-							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic04.jpg" alt="" /></a>
-							</div>
-
-						<!-- Column 2 (vertical, horizontal, vertical, horizontal) -->
-							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic06.jpg" alt="" /></a>
-							</div>
-							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic05.jpg" alt="" /></a>
-							</div>
-							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic08.jpg" alt="" /></a>
-							</div>
-							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic07.jpg" alt="" /></a>
-							</div>
-
-						<!-- Column 3 (horizontal, vertical, horizontal, vertical) -->
-							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic09.jpg" alt="" /></a>
-							</div>
-							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic12.jpg" alt="" /></a>
-							</div>
-							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic11.jpg" alt="" /></a>
-							</div>
-							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic10.jpg" alt="" /></a>
-							</div>
-
-						<!-- Column 4 (vertical, horizontal, vertical, horizontal) -->
-							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic13.jpg" alt="" /></a>
-							</div>
-							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic14.jpg" alt="" /></a>
-							</div>
-							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic15.jpg" alt="" /></a>
-							</div>
-							<div class="image fit">
-								<a href="detail1.html"><img src="images/pic16.jpg" alt="" /></a>
-							</div>
-
-					</div>
-				</div>
-			</div>
-
-		<!-- Footer -->
-			<footer id="footer">
-				<a href="#" class="info fa fa-info-circle"><span>About</span></a>
-				<div class="inner">
-					<div class="content">
-						<h3>Stories behind objects恋物癖</h3>
-						<p>I've been organizing my room lately, and I found many things that I don't neccesarily need anymore. I decide to record them, write down the stories that I had with it before I send it away.这是一个承载着与物品过去的记忆的网站。所有的东西，离别时都需要一个好好的再见。</p>
-					</div>
-					<div class="copyright">
-						<h3>Follow me</h3>
-						<ul class="icons">
-							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-						</ul>
-						&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com/">Unsplash</a>.
-					</div>
-				</div>
-			</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
+	<body class="graydient" >
+		<div id="container" ></div>
+		<div id="fail">
+			<h1>Sorry,</h1>
+			<h2>Cubers broken</h2>
+		</div>
+		
 	</body>
 </html>
