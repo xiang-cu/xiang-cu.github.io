@@ -1,3 +1,6 @@
+This personal website is based on template made by Song Kong, which can be found at [github page](https://github.com/songkong/Blog/tree/gh-pages)
+
+
 # Blog of Song Kong
 This is a Jekyll theme called Ice bear.
 
